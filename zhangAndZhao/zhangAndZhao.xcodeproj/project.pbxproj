@@ -11,7 +11,11 @@
 		7A7B45AC1C2FCB10006EB351 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A7B45AB1C2FCB10006EB351 /* AppDelegate.m */; };
 		7A7B45AE1C2FCB10006EB351 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A7B45AD1C2FCB10006EB351 /* Assets.xcassets */; };
 		7A7B45B11C2FCB10006EB351 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A7B45AF1C2FCB10006EB351 /* LaunchScreen.storyboard */; };
+
 		7A7B45BA1C2FCCA0006EB351 /* Mango.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A7B45B91C2FCCA0006EB351 /* Mango.m */; };
+
+		7AFFD4F81C2FCCB100E953F2 /* ZhaoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AFFD4F71C2FCCB100E953F2 /* ZhaoViewController.m */; };
+
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,8 +26,13 @@
 		7A7B45AD1C2FCB10006EB351 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A7B45B01C2FCB10006EB351 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A7B45B21C2FCB10006EB351 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+
 		7A7B45B81C2FCCA0006EB351 /* Mango.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mango.h; sourceTree = "<group>"; };
 		7A7B45B91C2FCCA0006EB351 /* Mango.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mango.m; sourceTree = "<group>"; };
+
+		7AFFD4F61C2FCCB100E953F2 /* ZhaoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZhaoViewController.h; sourceTree = "<group>"; };
+		7AFFD4F71C2FCCB100E953F2 /* ZhaoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZhaoViewController.m; sourceTree = "<group>"; };
+
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +67,12 @@
 			children = (
 				7A7B45AA1C2FCB10006EB351 /* AppDelegate.h */,
 				7A7B45AB1C2FCB10006EB351 /* AppDelegate.m */,
+
 				7A7B45B81C2FCCA0006EB351 /* Mango.h */,
 				7A7B45B91C2FCCA0006EB351 /* Mango.m */,
+
+				7AFFD4F61C2FCCB100E953F2 /* ZhaoViewController.h */,
+				7AFFD4F71C2FCCB100E953F2 /* ZhaoViewController.m */,
 				7A7B45AD1C2FCB10006EB351 /* Assets.xcassets */,
 				7A7B45AF1C2FCB10006EB351 /* LaunchScreen.storyboard */,
 				7A7B45B21C2FCB10006EB351 /* Info.plist */,
@@ -145,8 +158,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+
 				7A7B45BA1C2FCCA0006EB351 /* Mango.m in Sources */,
-				7A7B45AC1C2FCB10006EB351 /* AppDelegate.m in Sources */,
+
+				7AFFD4F81C2FCCB100E953F2 /* ZhaoViewController.m in Sources */,
+ 				7A7B45AC1C2FCB10006EB351 /* AppDelegate.m in Sources */,
 				7A7B45A91C2FCB10006EB351 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,6 +302,7 @@
 				7A7B45B71C2FCB10006EB351 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
