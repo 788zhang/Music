@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>电视剧</key>
+	<array>
+		<dict>
+			<key>movieName</key>
+			<string>敢死队4</string>
+			<key>inTroduce</key>
+			<string>这是史泰龙老年之作，这是他退出好莱坞前的最后一部大作，让你看的开心，让你看的崇拜</string>
+			<key>MovieImage</key>
+			<string></string>
+			<key>Count</key>
+			<string>0</string>
+			<key>MovieTime</key>
+			<string>2016年三月</string>
+		</dict>
+		<dict/>
+		<dict/>
+	</array>
+	<key>电影</key>
+	<array/>
+	<key>动漫</key>
+	<array/>
+	<key>综艺节目</key>
+	<array/>
+</dict>
+</plist>

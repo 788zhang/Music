@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A0D76351C0FBE070081B2C0 /* Movie.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7A0D76341C0FBE070081B2C0 /* Movie.plist */; };
+		7AFE663D1C0E869800F32616 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AFE663C1C0E869800F32616 /* main.m */; };
+		7AFE66401C0E869800F32616 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AFE663F1C0E869800F32616 /* AppDelegate.m */; };
+		7AFE66431C0E869800F32616 /* ___TableViewCell.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7AFE66411C0E869800F32616 /* ___TableViewCell.xcdatamodeld */; };
+		7AFE66451C0E869800F32616 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AFE66441C0E869800F32616 /* Images.xcassets */; };
+		7AFE66481C0E869800F32616 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7AFE66461C0E869800F32616 /* LaunchScreen.xib */; };
+		7AFE66541C0E869800F32616 /* ___TableViewCellTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AFE66531C0E869800F32616 /* ___TableViewCellTests.m */; };
+		7AFE665F1C0E86AB00F32616 /* MangoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AFE665E1C0E86AB00F32616 /* MangoViewController.m */; };
+		7AFE66611C0E887200F32616 /* Car.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7AFE66601C0E887200F32616 /* Car.plist */; };
+		7AFE66641C0E8DD900F32616 /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AFE66631C0E8DD900F32616 /* CustomTableViewCell.m */; };
+		7AFE66841C0E94FC00F32616 /* CarDateModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AFE66831C0E94FC00F32616 /* CarDateModel.m */; };
+		7AFE66891C0EC99200F32616 /* NSArray+array.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AFE66881C0EC99200F32616 /* NSArray+array.m */; };
+		7AFE66BA1C0ED92700F32616 /* Audi.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AFE66AB1C0ED92700F32616 /* Audi.png */; };
+		7AFE66BB1C0ED92700F32616 /* Bentley.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AFE66AC1C0ED92700F32616 /* Bentley.png */; };
+		7AFE66BC1C0ED92700F32616 /* BMW.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AFE66AD1C0ED92700F32616 /* BMW.png */; };
+		7AFE66BD1C0ED92700F32616 /* Cadillac.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AFE66AE1C0ED92700F32616 /* Cadillac.png */; };
+		7AFE66BE1C0ED92700F32616 /* Car.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7AFE66AF1C0ED92700F32616 /* Car.plist */; };
+		7AFE66BF1C0ED92700F32616 /* Ferrari.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AFE66B01C0ED92700F32616 /* Ferrari.png */; };
+		7AFE66C01C0ED92700F32616 /* Ford.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AFE66B11C0ED92700F32616 /* Ford.png */; };
+		7AFE66C11C0ED92700F32616 /* GMC.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AFE66B21C0ED92700F32616 /* GMC.png */; };
+		7AFE66C21C0ED92700F32616 /* Honda.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AFE66B31C0ED92700F32616 /* Honda.png */; };
+		7AFE66C31C0ED92700F32616 /* Lamborghini.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AFE66B41C0ED92700F32616 /* Lamborghini.png */; };
+		7AFE66C41C0ED92700F32616 /* Land_Rover.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AFE66B51C0ED92700F32616 /* Land_Rover.png */; };
+		7AFE66C51C0ED92700F32616 /* Maserati.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AFE66B61C0ED92700F32616 /* Maserati.png */; };
+		7AFE66C61C0ED92700F32616 /* Mercedes1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AFE66B71C0ED92700F32616 /* Mercedes1.png */; };
+		7AFE66C71C0ED92700F32616 /* Nisan.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AFE66B81C0ED92700F32616 /* Nisan.png */; };
+		7AFE66C81C0ED92700F32616 /* Toyota.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AFE66B91C0ED92700F32616 /* Toyota.png */; };
+		7AFE66CD1C0EF15900F32616 /* name.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7AFE66CC1C0EF15900F32616 /* name.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7AFE664E1C0E869800F32616 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7AFE662F1C0E869800F32616 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7AFE66361C0E869800F32616;
+			remoteInfo = "自定义TableViewCell";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7A0D76341C0FBE070081B2C0 /* Movie.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Movie.plist; sourceTree = "<group>"; };
+		7AFE66371C0E869800F32616 /* 自定义TableViewCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "自定义TableViewCell.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AFE663B1C0E869800F32616 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AFE663C1C0E869800F32616 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7AFE663E1C0E869800F32616 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7AFE663F1C0E869800F32616 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7AFE66421C0E869800F32616 /* ___TableViewCell.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "___TableViewCell.xcdatamodel"; sourceTree = "<group>"; };
+		7AFE66441C0E869800F32616 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7AFE66471C0E869800F32616 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		7AFE664D1C0E869800F32616 /* 自定义TableViewCellTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "自定义TableViewCellTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AFE66521C0E869800F32616 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AFE66531C0E869800F32616 /* ___TableViewCellTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___TableViewCellTests.m"; sourceTree = "<group>"; };
+		7AFE665D1C0E86AB00F32616 /* MangoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MangoViewController.h; sourceTree = "<group>"; };
+		7AFE665E1C0E86AB00F32616 /* MangoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MangoViewController.m; sourceTree = "<group>"; };
+		7AFE66601C0E887200F32616 /* Car.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Car.plist; sourceTree = "<group>"; };
+		7AFE66621C0E8DD900F32616 /* CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
+		7AFE66631C0E8DD900F32616 /* CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
+		7AFE66821C0E94FC00F32616 /* CarDateModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarDateModel.h; sourceTree = "<group>"; };
+		7AFE66831C0E94FC00F32616 /* CarDateModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarDateModel.m; sourceTree = "<group>"; };
+		7AFE66881C0EC99200F32616 /* NSArray+array.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+array.m"; sourceTree = "<group>"; };
+		7AFE668A1C0EC99C00F32616 /* NSArray+array.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+array.h"; sourceTree = "<group>"; };
+		7AFE66AB1C0ED92700F32616 /* Audi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Audi.png; sourceTree = "<group>"; };
+		7AFE66AC1C0ED92700F32616 /* Bentley.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bentley.png; sourceTree = "<group>"; };
+		7AFE66AD1C0ED92700F32616 /* BMW.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BMW.png; sourceTree = "<group>"; };
+		7AFE66AE1C0ED92700F32616 /* Cadillac.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cadillac.png; sourceTree = "<group>"; };
+		7AFE66AF1C0ED92700F32616 /* Car.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Car.plist; sourceTree = "<group>"; };
+		7AFE66B01C0ED92700F32616 /* Ferrari.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ferrari.png; sourceTree = "<group>"; };
+		7AFE66B11C0ED92700F32616 /* Ford.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ford.png; sourceTree = "<group>"; };
+		7AFE66B21C0ED92700F32616 /* GMC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GMC.png; sourceTree = "<group>"; };
+		7AFE66B31C0ED92700F32616 /* Honda.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Honda.png; sourceTree = "<group>"; };
+		7AFE66B41C0ED92700F32616 /* Lamborghini.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lamborghini.png; sourceTree = "<group>"; };
+		7AFE66B51C0ED92700F32616 /* Land_Rover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Land_Rover.png; sourceTree = "<group>"; };
+		7AFE66B61C0ED92700F32616 /* Maserati.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Maserati.png; sourceTree = "<group>"; };
+		7AFE66B71C0ED92700F32616 /* Mercedes1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mercedes1.png; sourceTree = "<group>"; };
+		7AFE66B81C0ED92700F32616 /* Nisan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Nisan.png; sourceTree = "<group>"; };
+		7AFE66B91C0ED92700F32616 /* Toyota.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Toyota.png; sourceTree = "<group>"; };
+		7AFE66CC1C0EF15900F32616 /* name.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = name.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7AFE66341C0E869800F32616 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AFE664A1C0E869800F32616 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7AFE662E1C0E869800F32616 = {
+			isa = PBXGroup;
+			children = (
+				7AFE66CC1C0EF15900F32616 /* name.plist */,
+				7AFE66391C0E869800F32616 /* 自定义TableViewCell */,
+				7AFE66501C0E869800F32616 /* 自定义TableViewCellTests */,
+				7AFE66381C0E869800F32616 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7AFE66381C0E869800F32616 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7AFE66371C0E869800F32616 /* 自定义TableViewCell.app */,
+				7AFE664D1C0E869800F32616 /* 自定义TableViewCellTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7AFE66391C0E869800F32616 /* 自定义TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				7AFE66AA1C0ED92700F32616 /* 未命名文件夹 */,
+				7AFE663E1C0E869800F32616 /* AppDelegate.h */,
+				7AFE663F1C0E869800F32616 /* AppDelegate.m */,
+				7AFE66601C0E887200F32616 /* Car.plist */,
+				7A0D76341C0FBE070081B2C0 /* Movie.plist */,
+				7AFE66881C0EC99200F32616 /* NSArray+array.m */,
+				7AFE668A1C0EC99C00F32616 /* NSArray+array.h */,
+				7AFE66821C0E94FC00F32616 /* CarDateModel.h */,
+				7AFE66831C0E94FC00F32616 /* CarDateModel.m */,
+				7AFE66621C0E8DD900F32616 /* CustomTableViewCell.h */,
+				7AFE66631C0E8DD900F32616 /* CustomTableViewCell.m */,
+				7AFE665D1C0E86AB00F32616 /* MangoViewController.h */,
+				7AFE665E1C0E86AB00F32616 /* MangoViewController.m */,
+				7AFE66441C0E869800F32616 /* Images.xcassets */,
+				7AFE66461C0E869800F32616 /* LaunchScreen.xib */,
+				7AFE66411C0E869800F32616 /* ___TableViewCell.xcdatamodeld */,
+				7AFE663A1C0E869800F32616 /* Supporting Files */,
+			);
+			path = "自定义TableViewCell";
+			sourceTree = "<group>";
+		};
+		7AFE663A1C0E869800F32616 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7AFE663B1C0E869800F32616 /* Info.plist */,
+				7AFE663C1C0E869800F32616 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7AFE66501C0E869800F32616 /* 自定义TableViewCellTests */ = {
+			isa = PBXGroup;
+			children = (
+				7AFE66531C0E869800F32616 /* ___TableViewCellTests.m */,
+				7AFE66511C0E869800F32616 /* Supporting Files */,
+			);
+			path = "自定义TableViewCellTests";
+			sourceTree = "<group>";
+		};
+		7AFE66511C0E869800F32616 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7AFE66521C0E869800F32616 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7AFE66AA1C0ED92700F32616 /* 未命名文件夹 */ = {
+			isa = PBXGroup;
+			children = (
+				7AFE66AB1C0ED92700F32616 /* Audi.png */,
+				7AFE66AC1C0ED92700F32616 /* Bentley.png */,
+				7AFE66AD1C0ED92700F32616 /* BMW.png */,
+				7AFE66AE1C0ED92700F32616 /* Cadillac.png */,
+				7AFE66AF1C0ED92700F32616 /* Car.plist */,
+				7AFE66B01C0ED92700F32616 /* Ferrari.png */,
+				7AFE66B11C0ED92700F32616 /* Ford.png */,
+				7AFE66B21C0ED92700F32616 /* GMC.png */,
+				7AFE66B31C0ED92700F32616 /* Honda.png */,
+				7AFE66B41C0ED92700F32616 /* Lamborghini.png */,
+				7AFE66B51C0ED92700F32616 /* Land_Rover.png */,
+				7AFE66B61C0ED92700F32616 /* Maserati.png */,
+				7AFE66B71C0ED92700F32616 /* Mercedes1.png */,
+				7AFE66B81C0ED92700F32616 /* Nisan.png */,
+				7AFE66B91C0ED92700F32616 /* Toyota.png */,
+			);
+			path = "未命名文件夹";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7AFE66361C0E869800F32616 /* 自定义TableViewCell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AFE66571C0E869800F32616 /* Build configuration list for PBXNativeTarget "自定义TableViewCell" */;
+			buildPhases = (
+				7AFE66331C0E869800F32616 /* Sources */,
+				7AFE66341C0E869800F32616 /* Frameworks */,
+				7AFE66351C0E869800F32616 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "自定义TableViewCell";
+			productName = "自定义TableViewCell";
+			productReference = 7AFE66371C0E869800F32616 /* 自定义TableViewCell.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7AFE664C1C0E869800F32616 /* 自定义TableViewCellTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AFE665A1C0E869800F32616 /* Build configuration list for PBXNativeTarget "自定义TableViewCellTests" */;
+			buildPhases = (
+				7AFE66491C0E869800F32616 /* Sources */,
+				7AFE664A1C0E869800F32616 /* Frameworks */,
+				7AFE664B1C0E869800F32616 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7AFE664F1C0E869800F32616 /* PBXTargetDependency */,
+			);
+			name = "自定义TableViewCellTests";
+			productName = "自定义TableViewCellTests";
+			productReference = 7AFE664D1C0E869800F32616 /* 自定义TableViewCellTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7AFE662F1C0E869800F32616 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "张鹏飞";
+				TargetAttributes = {
+					7AFE66361C0E869800F32616 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					7AFE664C1C0E869800F32616 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 7AFE66361C0E869800F32616;
+					};
+				};
+			};
+			buildConfigurationList = 7AFE66321C0E869800F32616 /* Build configuration list for PBXProject "自定义TableViewCell" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7AFE662E1C0E869800F32616;
+			productRefGroup = 7AFE66381C0E869800F32616 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7AFE66361C0E869800F32616 /* 自定义TableViewCell */,
+				7AFE664C1C0E869800F32616 /* 自定义TableViewCellTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7AFE66351C0E869800F32616 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AFE66BC1C0ED92700F32616 /* BMW.png in Resources */,
+				7AFE66C51C0ED92700F32616 /* Maserati.png in Resources */,
+				7AFE66C41C0ED92700F32616 /* Land_Rover.png in Resources */,
+				7AFE66C31C0ED92700F32616 /* Lamborghini.png in Resources */,
+				7AFE66BF1C0ED92700F32616 /* Ferrari.png in Resources */,
+				7AFE66C81C0ED92700F32616 /* Toyota.png in Resources */,
+				7AFE66C21C0ED92700F32616 /* Honda.png in Resources */,
+				7AFE66C11C0ED92700F32616 /* GMC.png in Resources */,
+				7AFE66C01C0ED92700F32616 /* Ford.png in Resources */,
+				7A0D76351C0FBE070081B2C0 /* Movie.plist in Resources */,
+				7AFE66CD1C0EF15900F32616 /* name.plist in Resources */,
+				7AFE66BE1C0ED92700F32616 /* Car.plist in Resources */,
+				7AFE66C71C0ED92700F32616 /* Nisan.png in Resources */,
+				7AFE66C61C0ED92700F32616 /* Mercedes1.png in Resources */,
+				7AFE66BB1C0ED92700F32616 /* Bentley.png in Resources */,
+				7AFE66481C0E869800F32616 /* LaunchScreen.xib in Resources */,
+				7AFE66451C0E869800F32616 /* Images.xcassets in Resources */,
+				7AFE66BD1C0ED92700F32616 /* Cadillac.png in Resources */,
+				7AFE66BA1C0ED92700F32616 /* Audi.png in Resources */,
+				7AFE66611C0E887200F32616 /* Car.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AFE664B1C0E869800F32616 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7AFE66331C0E869800F32616 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AFE66401C0E869800F32616 /* AppDelegate.m in Sources */,
+				7AFE665F1C0E86AB00F32616 /* MangoViewController.m in Sources */,
+				7AFE66841C0E94FC00F32616 /* CarDateModel.m in Sources */,
+				7AFE663D1C0E869800F32616 /* main.m in Sources */,
+				7AFE66891C0EC99200F32616 /* NSArray+array.m in Sources */,
+				7AFE66641C0E8DD900F32616 /* CustomTableViewCell.m in Sources */,
+				7AFE66431C0E869800F32616 /* ___TableViewCell.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AFE66491C0E869800F32616 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AFE66541C0E869800F32616 /* ___TableViewCellTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7AFE664F1C0E869800F32616 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7AFE66361C0E869800F32616 /* 自定义TableViewCell */;
+			targetProxy = 7AFE664E1C0E869800F32616 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7AFE66461C0E869800F32616 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7AFE66471C0E869800F32616 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7AFE66551C0E869800F32616 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7AFE66561C0E869800F32616 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7AFE66581C0E869800F32616 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				INFOPLIST_FILE = "自定义TableViewCell/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7AFE66591C0E869800F32616 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				INFOPLIST_FILE = "自定义TableViewCell/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7AFE665B1C0E869800F32616 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "自定义TableViewCellTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/自定义TableViewCell.app/自定义TableViewCell";
+			};
+			name = Debug;
+		};
+		7AFE665C1C0E869800F32616 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "自定义TableViewCellTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/自定义TableViewCell.app/自定义TableViewCell";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7AFE66321C0E869800F32616 /* Build configuration list for PBXProject "自定义TableViewCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AFE66551C0E869800F32616 /* Debug */,
+				7AFE66561C0E869800F32616 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AFE66571C0E869800F32616 /* Build configuration list for PBXNativeTarget "自定义TableViewCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AFE66581C0E869800F32616 /* Debug */,
+				7AFE66591C0E869800F32616 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AFE665A1C0E869800F32616 /* Build configuration list for PBXNativeTarget "自定义TableViewCellTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AFE665B1C0E869800F32616 /* Debug */,
+				7AFE665C1C0E869800F32616 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7AFE66411C0E869800F32616 /* ___TableViewCell.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7AFE66421C0E869800F32616 /* ___TableViewCell.xcdatamodel */,
+			);
+			currentVersion = 7AFE66421C0E869800F32616 /* ___TableViewCell.xcdatamodel */;
+			path = "___TableViewCell.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7AFE662F1C0E869800F32616 /* Project object */;
+}

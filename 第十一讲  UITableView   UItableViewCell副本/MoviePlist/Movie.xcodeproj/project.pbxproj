@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A3197271C11613A0071D6E2 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7A3197181C11613A0071D6E2 /* 1.jpg */; };
+		7A3197281C11613A0071D6E2 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7A3197191C11613A0071D6E2 /* 2.jpg */; };
+		7A3197291C11613A0071D6E2 /* 不可思议.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7A31971A1C11613A0071D6E2 /* 不可思议.jpg */; };
+		7A31972A1C11613A0071D6E2 /* 坏蛋必须死.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7A31971B1C11613A0071D6E2 /* 坏蛋必须死.jpg */; };
+		7A31972B1C11613A0071D6E2 /* 少女时代.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7A31971C1C11613A0071D6E2 /* 少女时代.jpg */; };
+		7A31972D1C11613A0071D6E2 /* MovieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A3197201C11613A0071D6E2 /* MovieViewController.m */; };
+		7A31972E1C11613A0071D6E2 /* MovieDateModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A3197231C11613A0071D6E2 /* MovieDateModel.m */; };
+		7A31972F1C11613A0071D6E2 /* MovieTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A3197261C11613A0071D6E2 /* MovieTableViewCell.m */; };
+		7A3197311C1172C40071D6E2 /* 僵尸至尊.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7A3197301C1172C40071D6E2 /* 僵尸至尊.jpg */; };
+		7A3197331C11734E0071D6E2 /* 鬼打鬼.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7A3197321C11734E0071D6E2 /* 鬼打鬼.jpg */; };
+		7A3197351C11769B0071D6E2 /* 杀破狼.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7A3197341C11769B0071D6E2 /* 杀破狼.jpg */; };
+		7A3197371C1177410071D6E2 /* 8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7A3197361C1177410071D6E2 /* 8.jpg */; };
+		7AFE674F1C0F0DAD00F32616 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AFE674E1C0F0DAD00F32616 /* main.m */; };
+		7AFE67521C0F0DAD00F32616 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AFE67511C0F0DAD00F32616 /* AppDelegate.m */; };
+		7AFE67551C0F0DAD00F32616 /* Movie.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7AFE67531C0F0DAD00F32616 /* Movie.xcdatamodeld */; };
+		7AFE67571C0F0DAD00F32616 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AFE67561C0F0DAD00F32616 /* Images.xcassets */; };
+		7AFE675A1C0F0DAD00F32616 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7AFE67581C0F0DAD00F32616 /* LaunchScreen.xib */; };
+		7AFE67661C0F0DAD00F32616 /* MovieTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AFE67651C0F0DAD00F32616 /* MovieTests.m */; };
+		7AFE677F1C0F16CA00F32616 /* movie.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7AFE677E1C0F16CA00F32616 /* movie.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7AFE67601C0F0DAD00F32616 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7AFE67411C0F0DAD00F32616 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7AFE67481C0F0DAD00F32616;
+			remoteInfo = Movie;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7A3197181C11613A0071D6E2 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		7A3197191C11613A0071D6E2 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		7A31971A1C11613A0071D6E2 /* 不可思议.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "不可思议.jpg"; sourceTree = "<group>"; };
+		7A31971B1C11613A0071D6E2 /* 坏蛋必须死.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "坏蛋必须死.jpg"; sourceTree = "<group>"; };
+		7A31971C1C11613A0071D6E2 /* 少女时代.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "少女时代.jpg"; sourceTree = "<group>"; };
+		7A31971F1C11613A0071D6E2 /* MovieViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieViewController.h; sourceTree = "<group>"; };
+		7A3197201C11613A0071D6E2 /* MovieViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieViewController.m; sourceTree = "<group>"; };
+		7A3197221C11613A0071D6E2 /* MovieDateModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieDateModel.h; sourceTree = "<group>"; };
+		7A3197231C11613A0071D6E2 /* MovieDateModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieDateModel.m; sourceTree = "<group>"; };
+		7A3197251C11613A0071D6E2 /* MovieTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieTableViewCell.h; sourceTree = "<group>"; };
+		7A3197261C11613A0071D6E2 /* MovieTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieTableViewCell.m; sourceTree = "<group>"; };
+		7A3197301C1172C40071D6E2 /* 僵尸至尊.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "僵尸至尊.jpg"; sourceTree = "<group>"; };
+		7A3197321C11734E0071D6E2 /* 鬼打鬼.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "鬼打鬼.jpg"; sourceTree = "<group>"; };
+		7A3197341C11769B0071D6E2 /* 杀破狼.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "杀破狼.jpg"; sourceTree = "<group>"; };
+		7A3197361C1177410071D6E2 /* 8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpg; sourceTree = "<group>"; };
+		7AFE67491C0F0DAD00F32616 /* Movie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Movie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AFE674D1C0F0DAD00F32616 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AFE674E1C0F0DAD00F32616 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7AFE67501C0F0DAD00F32616 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7AFE67511C0F0DAD00F32616 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7AFE67541C0F0DAD00F32616 /* Movie.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Movie.xcdatamodel; sourceTree = "<group>"; };
+		7AFE67561C0F0DAD00F32616 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7AFE67591C0F0DAD00F32616 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		7AFE675F1C0F0DAD00F32616 /* MovieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AFE67641C0F0DAD00F32616 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AFE67651C0F0DAD00F32616 /* MovieTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MovieTests.m; sourceTree = "<group>"; };
+		7AFE677E1C0F16CA00F32616 /* movie.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = movie.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7AFE67461C0F0DAD00F32616 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AFE675C1C0F0DAD00F32616 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7A3197171C11613A0071D6E2 /* 图片 */ = {
+			isa = PBXGroup;
+			children = (
+				7A3197181C11613A0071D6E2 /* 1.jpg */,
+				7A3197301C1172C40071D6E2 /* 僵尸至尊.jpg */,
+				7A3197341C11769B0071D6E2 /* 杀破狼.jpg */,
+				7A3197321C11734E0071D6E2 /* 鬼打鬼.jpg */,
+				7A3197361C1177410071D6E2 /* 8.jpg */,
+				7A3197191C11613A0071D6E2 /* 2.jpg */,
+				7A31971A1C11613A0071D6E2 /* 不可思议.jpg */,
+				7A31971B1C11613A0071D6E2 /* 坏蛋必须死.jpg */,
+				7A31971C1C11613A0071D6E2 /* 少女时代.jpg */,
+			);
+			path = "图片";
+			sourceTree = "<group>";
+		};
+		7A31971E1C11613A0071D6E2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7A31971F1C11613A0071D6E2 /* MovieViewController.h */,
+				7A3197201C11613A0071D6E2 /* MovieViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7A3197211C11613A0071D6E2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7A3197221C11613A0071D6E2 /* MovieDateModel.h */,
+				7A3197231C11613A0071D6E2 /* MovieDateModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7A3197241C11613A0071D6E2 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				7A3197251C11613A0071D6E2 /* MovieTableViewCell.h */,
+				7A3197261C11613A0071D6E2 /* MovieTableViewCell.m */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		7AFE67401C0F0DAD00F32616 = {
+			isa = PBXGroup;
+			children = (
+				7AFE677E1C0F16CA00F32616 /* movie.plist */,
+				7AFE674B1C0F0DAD00F32616 /* Movie */,
+				7AFE67621C0F0DAD00F32616 /* MovieTests */,
+				7AFE674A1C0F0DAD00F32616 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7AFE674A1C0F0DAD00F32616 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7AFE67491C0F0DAD00F32616 /* Movie.app */,
+				7AFE675F1C0F0DAD00F32616 /* MovieTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7AFE674B1C0F0DAD00F32616 /* Movie */ = {
+			isa = PBXGroup;
+			children = (
+				7A3197171C11613A0071D6E2 /* 图片 */,
+				7A31971E1C11613A0071D6E2 /* Controller */,
+				7A3197211C11613A0071D6E2 /* Model */,
+				7A3197241C11613A0071D6E2 /* TableViewCell */,
+				7AFE67501C0F0DAD00F32616 /* AppDelegate.h */,
+				7AFE67511C0F0DAD00F32616 /* AppDelegate.m */,
+				7AFE67561C0F0DAD00F32616 /* Images.xcassets */,
+				7AFE67581C0F0DAD00F32616 /* LaunchScreen.xib */,
+				7AFE67531C0F0DAD00F32616 /* Movie.xcdatamodeld */,
+				7AFE674C1C0F0DAD00F32616 /* Supporting Files */,
+			);
+			path = Movie;
+			sourceTree = "<group>";
+		};
+		7AFE674C1C0F0DAD00F32616 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7AFE674D1C0F0DAD00F32616 /* Info.plist */,
+				7AFE674E1C0F0DAD00F32616 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7AFE67621C0F0DAD00F32616 /* MovieTests */ = {
+			isa = PBXGroup;
+			children = (
+				7AFE67651C0F0DAD00F32616 /* MovieTests.m */,
+				7AFE67631C0F0DAD00F32616 /* Supporting Files */,
+			);
+			path = MovieTests;
+			sourceTree = "<group>";
+		};
+		7AFE67631C0F0DAD00F32616 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7AFE67641C0F0DAD00F32616 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7AFE67481C0F0DAD00F32616 /* Movie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AFE67691C0F0DAD00F32616 /* Build configuration list for PBXNativeTarget "Movie" */;
+			buildPhases = (
+				7AFE67451C0F0DAD00F32616 /* Sources */,
+				7AFE67461C0F0DAD00F32616 /* Frameworks */,
+				7AFE67471C0F0DAD00F32616 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Movie;
+			productName = Movie;
+			productReference = 7AFE67491C0F0DAD00F32616 /* Movie.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7AFE675E1C0F0DAD00F32616 /* MovieTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AFE676C1C0F0DAD00F32616 /* Build configuration list for PBXNativeTarget "MovieTests" */;
+			buildPhases = (
+				7AFE675B1C0F0DAD00F32616 /* Sources */,
+				7AFE675C1C0F0DAD00F32616 /* Frameworks */,
+				7AFE675D1C0F0DAD00F32616 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7AFE67611C0F0DAD00F32616 /* PBXTargetDependency */,
+			);
+			name = MovieTests;
+			productName = MovieTests;
+			productReference = 7AFE675F1C0F0DAD00F32616 /* MovieTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7AFE67411C0F0DAD00F32616 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "张鹏飞";
+				TargetAttributes = {
+					7AFE67481C0F0DAD00F32616 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					7AFE675E1C0F0DAD00F32616 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 7AFE67481C0F0DAD00F32616;
+					};
+				};
+			};
+			buildConfigurationList = 7AFE67441C0F0DAD00F32616 /* Build configuration list for PBXProject "Movie" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7AFE67401C0F0DAD00F32616;
+			productRefGroup = 7AFE674A1C0F0DAD00F32616 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7AFE67481C0F0DAD00F32616 /* Movie */,
+				7AFE675E1C0F0DAD00F32616 /* MovieTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7AFE67471C0F0DAD00F32616 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A3197371C1177410071D6E2 /* 8.jpg in Resources */,
+				7AFE677F1C0F16CA00F32616 /* movie.plist in Resources */,
+				7A3197311C1172C40071D6E2 /* 僵尸至尊.jpg in Resources */,
+				7A3197271C11613A0071D6E2 /* 1.jpg in Resources */,
+				7A3197351C11769B0071D6E2 /* 杀破狼.jpg in Resources */,
+				7A3197281C11613A0071D6E2 /* 2.jpg in Resources */,
+				7AFE675A1C0F0DAD00F32616 /* LaunchScreen.xib in Resources */,
+				7A3197331C11734E0071D6E2 /* 鬼打鬼.jpg in Resources */,
+				7A31972B1C11613A0071D6E2 /* 少女时代.jpg in Resources */,
+				7A3197291C11613A0071D6E2 /* 不可思议.jpg in Resources */,
+				7A31972A1C11613A0071D6E2 /* 坏蛋必须死.jpg in Resources */,
+				7AFE67571C0F0DAD00F32616 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AFE675D1C0F0DAD00F32616 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7AFE67451C0F0DAD00F32616 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AFE67521C0F0DAD00F32616 /* AppDelegate.m in Sources */,
+				7AFE67551C0F0DAD00F32616 /* Movie.xcdatamodeld in Sources */,
+				7AFE674F1C0F0DAD00F32616 /* main.m in Sources */,
+				7A31972E1C11613A0071D6E2 /* MovieDateModel.m in Sources */,
+				7A31972F1C11613A0071D6E2 /* MovieTableViewCell.m in Sources */,
+				7A31972D1C11613A0071D6E2 /* MovieViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AFE675B1C0F0DAD00F32616 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AFE67661C0F0DAD00F32616 /* MovieTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7AFE67611C0F0DAD00F32616 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7AFE67481C0F0DAD00F32616 /* Movie */;
+			targetProxy = 7AFE67601C0F0DAD00F32616 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7AFE67581C0F0DAD00F32616 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7AFE67591C0F0DAD00F32616 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7AFE67671C0F0DAD00F32616 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7AFE67681C0F0DAD00F32616 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7AFE676A1C0F0DAD00F32616 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Movie/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7AFE676B1C0F0DAD00F32616 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Movie/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7AFE676D1C0F0DAD00F32616 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MovieTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Movie.app/Movie";
+			};
+			name = Debug;
+		};
+		7AFE676E1C0F0DAD00F32616 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MovieTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Movie.app/Movie";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7AFE67441C0F0DAD00F32616 /* Build configuration list for PBXProject "Movie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AFE67671C0F0DAD00F32616 /* Debug */,
+				7AFE67681C0F0DAD00F32616 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AFE67691C0F0DAD00F32616 /* Build configuration list for PBXNativeTarget "Movie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AFE676A1C0F0DAD00F32616 /* Debug */,
+				7AFE676B1C0F0DAD00F32616 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AFE676C1C0F0DAD00F32616 /* Build configuration list for PBXNativeTarget "MovieTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AFE676D1C0F0DAD00F32616 /* Debug */,
+				7AFE676E1C0F0DAD00F32616 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7AFE67531C0F0DAD00F32616 /* Movie.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7AFE67541C0F0DAD00F32616 /* Movie.xcdatamodel */,
+			);
+			currentVersion = 7AFE67541C0F0DAD00F32616 /* Movie.xcdatamodel */;
+			path = Movie.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7AFE67411C0F0DAD00F32616 /* Project object */;
+}

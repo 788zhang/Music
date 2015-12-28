@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A02A5F31C25521200C494AA /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A02A5F21C25521200C494AA /* libsqlite3.0.tbd */; };
+		7A02A5F61C25522500C494AA /* DBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A02A5F51C25522500C494AA /* DBManager.m */; };
+		7A02A5F91C2553CD00C494AA /* DateBaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A02A5F81C2553CD00C494AA /* DateBaseManager.m */; };
+		7A0D76451C0FCB600081B2C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A0D76441C0FCB600081B2C0 /* main.m */; };
+		7A0D76481C0FCB600081B2C0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A0D76471C0FCB600081B2C0 /* AppDelegate.m */; };
+		7A0D764B1C0FCB600081B2C0 /* AddressBook.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7A0D76491C0FCB600081B2C0 /* AddressBook.xcdatamodeld */; };
+		7A0D764D1C0FCB600081B2C0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A0D764C1C0FCB600081B2C0 /* Images.xcassets */; };
+		7A0D76501C0FCB600081B2C0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A0D764E1C0FCB600081B2C0 /* LaunchScreen.xib */; };
+		7A0D765C1C0FCB600081B2C0 /* AddressBookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A0D765B1C0FCB600081B2C0 /* AddressBookTests.m */; };
+		7A0D76E31C1046DE0081B2C0 /* AddressBook.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7A0D76E21C1046DE0081B2C0 /* AddressBook.plist */; };
+		7A0D76FB1C1047890081B2C0 /* head_01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7A0D76E51C1047890081B2C0 /* head_01.jpg */; };
+		7A0D76FC1C1047890081B2C0 /* head_02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7A0D76E61C1047890081B2C0 /* head_02.jpg */; };
+		7A0D76FD1C1047890081B2C0 /* head_03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7A0D76E71C1047890081B2C0 /* head_03.jpg */; };
+		7A0D76FE1C1047890081B2C0 /* head_04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7A0D76E81C1047890081B2C0 /* head_04.jpg */; };
+		7A0D76FF1C1047890081B2C0 /* head_05.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7A0D76E91C1047890081B2C0 /* head_05.jpg */; };
+		7A0D77001C1047890081B2C0 /* head_06.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7A0D76EA1C1047890081B2C0 /* head_06.jpg */; };
+		7A0D77011C1047890081B2C0 /* head_07.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7A0D76EB1C1047890081B2C0 /* head_07.jpg */; };
+		7A0D77021C1047890081B2C0 /* head_08.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7A0D76EC1C1047890081B2C0 /* head_08.jpg */; };
+		7A0D77031C1047890081B2C0 /* head_09.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7A0D76ED1C1047890081B2C0 /* head_09.jpg */; };
+		7A0D77041C1047890081B2C0 /* head_10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7A0D76EE1C1047890081B2C0 /* head_10.jpg */; };
+		7A0D77051C1047890081B2C0 /* head_11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7A0D76EF1C1047890081B2C0 /* head_11.jpg */; };
+		7A0D77061C1047890081B2C0 /* head_12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7A0D76F01C1047890081B2C0 /* head_12.jpg */; };
+		7A0D77071C1047890081B2C0 /* head_13.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7A0D76F11C1047890081B2C0 /* head_13.jpg */; };
+		7A0D77081C1047890081B2C0 /* head_14.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7A0D76F21C1047890081B2C0 /* head_14.jpg */; };
+		7A0D77091C1047890081B2C0 /* head_15.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7A0D76F31C1047890081B2C0 /* head_15.jpg */; };
+		7A0D770A1C1047890081B2C0 /* head_16.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7A0D76F41C1047890081B2C0 /* head_16.jpg */; };
+		7A0D770B1C1047890081B2C0 /* head_17.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7A0D76F51C1047890081B2C0 /* head_17.jpg */; };
+		7A0D770C1C1047890081B2C0 /* head_18.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7A0D76F61C1047890081B2C0 /* head_18.jpg */; };
+		7A0D770D1C1047890081B2C0 /* head_19.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7A0D76F71C1047890081B2C0 /* head_19.jpg */; };
+		7A0D770E1C1047890081B2C0 /* head_20.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7A0D76F81C1047890081B2C0 /* head_20.jpg */; };
+		7A0D770F1C1047890081B2C0 /* head_21.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7A0D76F91C1047890081B2C0 /* head_21.jpg */; };
+		7A0D77101C1047890081B2C0 /* head_22.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7A0D76FA1C1047890081B2C0 /* head_22.jpg */; };
+		7A0D77151C104C810081B2C0 /* AdressBookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A0D77141C104C810081B2C0 /* AdressBookViewController.m */; };
+		7A0D77191C104C870081B2C0 /* AdressBookDateModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A0D77181C104C870081B2C0 /* AdressBookDateModel.m */; };
+		7A0D771D1C104CA40081B2C0 /* AdressBookTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A0D771C1C104CA40081B2C0 /* AdressBookTableViewCell.m */; };
+		7A0D77201C106FC50081B2C0 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A0D771F1C106FC50081B2C0 /* DetailViewController.m */; };
+		7A0D77231C1070040081B2C0 /* DetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A0D77221C1070040081B2C0 /* DetailView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7A0D76561C0FCB600081B2C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A0D76371C0FCB600081B2C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A0D763E1C0FCB600081B2C0;
+			remoteInfo = AddressBook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7A02A5F21C25521200C494AA /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		7A02A5F41C25522500C494AA /* DBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DBManager.h; path = ../../DBManager.h; sourceTree = "<group>"; };
+		7A02A5F51C25522500C494AA /* DBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DBManager.m; path = ../../DBManager.m; sourceTree = "<group>"; };
+		7A02A5F71C2553CD00C494AA /* DateBaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateBaseManager.h; sourceTree = "<group>"; };
+		7A02A5F81C2553CD00C494AA /* DateBaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateBaseManager.m; sourceTree = "<group>"; };
+		7A0D763F1C0FCB600081B2C0 /* AddressBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AddressBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A0D76431C0FCB600081B2C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A0D76441C0FCB600081B2C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7A0D76461C0FCB600081B2C0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7A0D76471C0FCB600081B2C0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7A0D764A1C0FCB600081B2C0 /* AddressBook.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AddressBook.xcdatamodel; sourceTree = "<group>"; };
+		7A0D764C1C0FCB600081B2C0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7A0D764F1C0FCB600081B2C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		7A0D76551C0FCB600081B2C0 /* AddressBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AddressBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A0D765A1C0FCB600081B2C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A0D765B1C0FCB600081B2C0 /* AddressBookTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddressBookTests.m; sourceTree = "<group>"; };
+		7A0D76E21C1046DE0081B2C0 /* AddressBook.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AddressBook.plist; sourceTree = "<group>"; };
+		7A0D76E51C1047890081B2C0 /* head_01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = head_01.jpg; sourceTree = "<group>"; };
+		7A0D76E61C1047890081B2C0 /* head_02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = head_02.jpg; sourceTree = "<group>"; };
+		7A0D76E71C1047890081B2C0 /* head_03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = head_03.jpg; sourceTree = "<group>"; };
+		7A0D76E81C1047890081B2C0 /* head_04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = head_04.jpg; sourceTree = "<group>"; };
+		7A0D76E91C1047890081B2C0 /* head_05.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = head_05.jpg; sourceTree = "<group>"; };
+		7A0D76EA1C1047890081B2C0 /* head_06.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = head_06.jpg; sourceTree = "<group>"; };
+		7A0D76EB1C1047890081B2C0 /* head_07.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = head_07.jpg; sourceTree = "<group>"; };
+		7A0D76EC1C1047890081B2C0 /* head_08.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = head_08.jpg; sourceTree = "<group>"; };
+		7A0D76ED1C1047890081B2C0 /* head_09.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = head_09.jpg; sourceTree = "<group>"; };
+		7A0D76EE1C1047890081B2C0 /* head_10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = head_10.jpg; sourceTree = "<group>"; };
+		7A0D76EF1C1047890081B2C0 /* head_11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = head_11.jpg; sourceTree = "<group>"; };
+		7A0D76F01C1047890081B2C0 /* head_12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = head_12.jpg; sourceTree = "<group>"; };
+		7A0D76F11C1047890081B2C0 /* head_13.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = head_13.jpg; sourceTree = "<group>"; };
+		7A0D76F21C1047890081B2C0 /* head_14.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = head_14.jpg; sourceTree = "<group>"; };
+		7A0D76F31C1047890081B2C0 /* head_15.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = head_15.jpg; sourceTree = "<group>"; };
+		7A0D76F41C1047890081B2C0 /* head_16.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = head_16.jpg; sourceTree = "<group>"; };
+		7A0D76F51C1047890081B2C0 /* head_17.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = head_17.jpg; sourceTree = "<group>"; };
+		7A0D76F61C1047890081B2C0 /* head_18.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = head_18.jpg; sourceTree = "<group>"; };
+		7A0D76F71C1047890081B2C0 /* head_19.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = head_19.jpg; sourceTree = "<group>"; };
+		7A0D76F81C1047890081B2C0 /* head_20.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = head_20.jpg; sourceTree = "<group>"; };
+		7A0D76F91C1047890081B2C0 /* head_21.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = head_21.jpg; sourceTree = "<group>"; };
+		7A0D76FA1C1047890081B2C0 /* head_22.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = head_22.jpg; sourceTree = "<group>"; };
+		7A0D77131C104C810081B2C0 /* AdressBookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdressBookViewController.h; sourceTree = "<group>"; };
+		7A0D77141C104C810081B2C0 /* AdressBookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdressBookViewController.m; sourceTree = "<group>"; };
+		7A0D77171C104C870081B2C0 /* AdressBookDateModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdressBookDateModel.h; sourceTree = "<group>"; };
+		7A0D77181C104C870081B2C0 /* AdressBookDateModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdressBookDateModel.m; sourceTree = "<group>"; };
+		7A0D771B1C104CA40081B2C0 /* AdressBookTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdressBookTableViewCell.h; sourceTree = "<group>"; };
+		7A0D771C1C104CA40081B2C0 /* AdressBookTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdressBookTableViewCell.m; sourceTree = "<group>"; };
+		7A0D771E1C106FC50081B2C0 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		7A0D771F1C106FC50081B2C0 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		7A0D77211C1070040081B2C0 /* DetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailView.h; path = AddressBook/View/DetailView.h; sourceTree = SOURCE_ROOT; };
+		7A0D77221C1070040081B2C0 /* DetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailView.m; path = AddressBook/View/DetailView.m; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A0D763C1C0FCB600081B2C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A02A5F31C25521200C494AA /* libsqlite3.0.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A0D76521C0FCB600081B2C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7A0D76361C0FCB600081B2C0 = {
+			isa = PBXGroup;
+			children = (
+				7A02A5F21C25521200C494AA /* libsqlite3.0.tbd */,
+				7A0D76411C0FCB600081B2C0 /* AddressBook */,
+				7A0D76581C0FCB600081B2C0 /* AddressBookTests */,
+				7A0D76401C0FCB600081B2C0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7A0D76401C0FCB600081B2C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A0D763F1C0FCB600081B2C0 /* AddressBook.app */,
+				7A0D76551C0FCB600081B2C0 /* AddressBookTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A0D76411C0FCB600081B2C0 /* AddressBook */ = {
+			isa = PBXGroup;
+			children = (
+				7A0D76461C0FCB600081B2C0 /* AppDelegate.h */,
+				7A0D76471C0FCB600081B2C0 /* AppDelegate.m */,
+				7A0D771A1C104CA40081B2C0 /* View */,
+				7A0D77161C104C870081B2C0 /* Model */,
+				7A0D77121C104C810081B2C0 /* ViewController */,
+				7A0D76E41C1047890081B2C0 /* 通讯录班级图片 */,
+				7A0D76E21C1046DE0081B2C0 /* AddressBook.plist */,
+				7A0D764C1C0FCB600081B2C0 /* Images.xcassets */,
+				7A0D764E1C0FCB600081B2C0 /* LaunchScreen.xib */,
+				7A0D76491C0FCB600081B2C0 /* AddressBook.xcdatamodeld */,
+				7A0D76421C0FCB600081B2C0 /* Supporting Files */,
+			);
+			path = AddressBook;
+			sourceTree = "<group>";
+		};
+		7A0D76421C0FCB600081B2C0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7A0D76431C0FCB600081B2C0 /* Info.plist */,
+				7A0D76441C0FCB600081B2C0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7A0D76581C0FCB600081B2C0 /* AddressBookTests */ = {
+			isa = PBXGroup;
+			children = (
+				7A0D765B1C0FCB600081B2C0 /* AddressBookTests.m */,
+				7A0D76591C0FCB600081B2C0 /* Supporting Files */,
+			);
+			path = AddressBookTests;
+			sourceTree = "<group>";
+		};
+		7A0D76591C0FCB600081B2C0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7A0D765A1C0FCB600081B2C0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7A0D76E41C1047890081B2C0 /* 通讯录班级图片 */ = {
+			isa = PBXGroup;
+			children = (
+				7A0D76E51C1047890081B2C0 /* head_01.jpg */,
+				7A0D76E61C1047890081B2C0 /* head_02.jpg */,
+				7A0D76E71C1047890081B2C0 /* head_03.jpg */,
+				7A0D76E81C1047890081B2C0 /* head_04.jpg */,
+				7A0D76E91C1047890081B2C0 /* head_05.jpg */,
+				7A0D76EA1C1047890081B2C0 /* head_06.jpg */,
+				7A0D76EB1C1047890081B2C0 /* head_07.jpg */,
+				7A0D76EC1C1047890081B2C0 /* head_08.jpg */,
+				7A0D76ED1C1047890081B2C0 /* head_09.jpg */,
+				7A0D76EE1C1047890081B2C0 /* head_10.jpg */,
+				7A0D76EF1C1047890081B2C0 /* head_11.jpg */,
+				7A0D76F01C1047890081B2C0 /* head_12.jpg */,
+				7A0D76F11C1047890081B2C0 /* head_13.jpg */,
+				7A0D76F21C1047890081B2C0 /* head_14.jpg */,
+				7A0D76F31C1047890081B2C0 /* head_15.jpg */,
+				7A0D76F41C1047890081B2C0 /* head_16.jpg */,
+				7A0D76F51C1047890081B2C0 /* head_17.jpg */,
+				7A0D76F61C1047890081B2C0 /* head_18.jpg */,
+				7A0D76F71C1047890081B2C0 /* head_19.jpg */,
+				7A0D76F81C1047890081B2C0 /* head_20.jpg */,
+				7A0D76F91C1047890081B2C0 /* head_21.jpg */,
+				7A0D76FA1C1047890081B2C0 /* head_22.jpg */,
+			);
+			path = "通讯录班级图片";
+			sourceTree = "<group>";
+		};
+		7A0D77121C104C810081B2C0 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7A0D771E1C106FC50081B2C0 /* DetailViewController.h */,
+				7A0D771F1C106FC50081B2C0 /* DetailViewController.m */,
+				7A0D77131C104C810081B2C0 /* AdressBookViewController.h */,
+				7A0D77141C104C810081B2C0 /* AdressBookViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		7A0D77161C104C870081B2C0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7A02A5F71C2553CD00C494AA /* DateBaseManager.h */,
+				7A02A5F81C2553CD00C494AA /* DateBaseManager.m */,
+				7A02A5F41C25522500C494AA /* DBManager.h */,
+				7A02A5F51C25522500C494AA /* DBManager.m */,
+				7A0D77171C104C870081B2C0 /* AdressBookDateModel.h */,
+				7A0D77181C104C870081B2C0 /* AdressBookDateModel.m */,
+			);
+			name = Model;
+			path = Date;
+			sourceTree = "<group>";
+		};
+		7A0D771A1C104CA40081B2C0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7A0D77211C1070040081B2C0 /* DetailView.h */,
+				7A0D77221C1070040081B2C0 /* DetailView.m */,
+				7A0D771B1C104CA40081B2C0 /* AdressBookTableViewCell.h */,
+				7A0D771C1C104CA40081B2C0 /* AdressBookTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A0D763E1C0FCB600081B2C0 /* AddressBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A0D765F1C0FCB600081B2C0 /* Build configuration list for PBXNativeTarget "AddressBook" */;
+			buildPhases = (
+				7A0D763B1C0FCB600081B2C0 /* Sources */,
+				7A0D763C1C0FCB600081B2C0 /* Frameworks */,
+				7A0D763D1C0FCB600081B2C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AddressBook;
+			productName = AddressBook;
+			productReference = 7A0D763F1C0FCB600081B2C0 /* AddressBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7A0D76541C0FCB600081B2C0 /* AddressBookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A0D76621C0FCB600081B2C0 /* Build configuration list for PBXNativeTarget "AddressBookTests" */;
+			buildPhases = (
+				7A0D76511C0FCB600081B2C0 /* Sources */,
+				7A0D76521C0FCB600081B2C0 /* Frameworks */,
+				7A0D76531C0FCB600081B2C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A0D76571C0FCB600081B2C0 /* PBXTargetDependency */,
+			);
+			name = AddressBookTests;
+			productName = AddressBookTests;
+			productReference = 7A0D76551C0FCB600081B2C0 /* AddressBookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A0D76371C0FCB600081B2C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "张鹏飞";
+				TargetAttributes = {
+					7A0D763E1C0FCB600081B2C0 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					7A0D76541C0FCB600081B2C0 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 7A0D763E1C0FCB600081B2C0;
+					};
+				};
+			};
+			buildConfigurationList = 7A0D763A1C0FCB600081B2C0 /* Build configuration list for PBXProject "AddressBook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7A0D76361C0FCB600081B2C0;
+			productRefGroup = 7A0D76401C0FCB600081B2C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A0D763E1C0FCB600081B2C0 /* AddressBook */,
+				7A0D76541C0FCB600081B2C0 /* AddressBookTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A0D763D1C0FCB600081B2C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A0D76FF1C1047890081B2C0 /* head_05.jpg in Resources */,
+				7A0D76FB1C1047890081B2C0 /* head_01.jpg in Resources */,
+				7A0D77101C1047890081B2C0 /* head_22.jpg in Resources */,
+				7A0D770C1C1047890081B2C0 /* head_18.jpg in Resources */,
+				7A0D76FC1C1047890081B2C0 /* head_02.jpg in Resources */,
+				7A0D76FD1C1047890081B2C0 /* head_03.jpg in Resources */,
+				7A0D77081C1047890081B2C0 /* head_14.jpg in Resources */,
+				7A0D76FE1C1047890081B2C0 /* head_04.jpg in Resources */,
+				7A0D77001C1047890081B2C0 /* head_06.jpg in Resources */,
+				7A0D77011C1047890081B2C0 /* head_07.jpg in Resources */,
+				7A0D76E31C1046DE0081B2C0 /* AddressBook.plist in Resources */,
+				7A0D77031C1047890081B2C0 /* head_09.jpg in Resources */,
+				7A0D770D1C1047890081B2C0 /* head_19.jpg in Resources */,
+				7A0D770E1C1047890081B2C0 /* head_20.jpg in Resources */,
+				7A0D77051C1047890081B2C0 /* head_11.jpg in Resources */,
+				7A0D770F1C1047890081B2C0 /* head_21.jpg in Resources */,
+				7A0D77091C1047890081B2C0 /* head_15.jpg in Resources */,
+				7A0D76501C0FCB600081B2C0 /* LaunchScreen.xib in Resources */,
+				7A0D764D1C0FCB600081B2C0 /* Images.xcassets in Resources */,
+				7A0D77041C1047890081B2C0 /* head_10.jpg in Resources */,
+				7A0D770A1C1047890081B2C0 /* head_16.jpg in Resources */,
+				7A0D77021C1047890081B2C0 /* head_08.jpg in Resources */,
+				7A0D77061C1047890081B2C0 /* head_12.jpg in Resources */,
+				7A0D77071C1047890081B2C0 /* head_13.jpg in Resources */,
+				7A0D770B1C1047890081B2C0 /* head_17.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A0D76531C0FCB600081B2C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A0D763B1C0FCB600081B2C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A0D764B1C0FCB600081B2C0 /* AddressBook.xcdatamodeld in Sources */,
+				7A0D77151C104C810081B2C0 /* AdressBookViewController.m in Sources */,
+				7A0D77191C104C870081B2C0 /* AdressBookDateModel.m in Sources */,
+				7A02A5F61C25522500C494AA /* DBManager.m in Sources */,
+				7A02A5F91C2553CD00C494AA /* DateBaseManager.m in Sources */,
+				7A0D76481C0FCB600081B2C0 /* AppDelegate.m in Sources */,
+				7A0D771D1C104CA40081B2C0 /* AdressBookTableViewCell.m in Sources */,
+				7A0D77231C1070040081B2C0 /* DetailView.m in Sources */,
+				7A0D76451C0FCB600081B2C0 /* main.m in Sources */,
+				7A0D77201C106FC50081B2C0 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A0D76511C0FCB600081B2C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A0D765C1C0FCB600081B2C0 /* AddressBookTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7A0D76571C0FCB600081B2C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A0D763E1C0FCB600081B2C0 /* AddressBook */;
+			targetProxy = 7A0D76561C0FCB600081B2C0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7A0D764E1C0FCB600081B2C0 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A0D764F1C0FCB600081B2C0 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7A0D765D1C0FCB600081B2C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7A0D765E1C0FCB600081B2C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A0D76601C0FCB600081B2C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				INFOPLIST_FILE = AddressBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhang.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7A0D76611C0FCB600081B2C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				INFOPLIST_FILE = AddressBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhang.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7A0D76631C0FCB600081B2C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AddressBookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhang.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AddressBook.app/AddressBook";
+			};
+			name = Debug;
+		};
+		7A0D76641C0FCB600081B2C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AddressBookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhang.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AddressBook.app/AddressBook";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A0D763A1C0FCB600081B2C0 /* Build configuration list for PBXProject "AddressBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A0D765D1C0FCB600081B2C0 /* Debug */,
+				7A0D765E1C0FCB600081B2C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A0D765F1C0FCB600081B2C0 /* Build configuration list for PBXNativeTarget "AddressBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A0D76601C0FCB600081B2C0 /* Debug */,
+				7A0D76611C0FCB600081B2C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A0D76621C0FCB600081B2C0 /* Build configuration list for PBXNativeTarget "AddressBookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A0D76631C0FCB600081B2C0 /* Debug */,
+				7A0D76641C0FCB600081B2C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7A0D76491C0FCB600081B2C0 /* AddressBook.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7A0D764A1C0FCB600081B2C0 /* AddressBook.xcdatamodel */,
+			);
+			currentVersion = 7A0D764A1C0FCB600081B2C0 /* AddressBook.xcdatamodel */;
+			path = AddressBook.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7A0D76371C0FCB600081B2C0 /* Project object */;
+}

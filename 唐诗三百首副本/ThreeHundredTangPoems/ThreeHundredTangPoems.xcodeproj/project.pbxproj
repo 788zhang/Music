@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A0104BC1C12C02B003241E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A0104BB1C12C02B003241E5 /* main.m */; };
+		7A0104BF1C12C02B003241E5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A0104BE1C12C02B003241E5 /* AppDelegate.m */; };
+		7A0104C21C12C02B003241E5 /* ThreeHundredTangPoems.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7A0104C01C12C02B003241E5 /* ThreeHundredTangPoems.xcdatamodeld */; };
+		7A0104C41C12C02B003241E5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A0104C31C12C02B003241E5 /* Images.xcassets */; };
+		7A0104C71C12C02B003241E5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A0104C51C12C02B003241E5 /* LaunchScreen.xib */; };
+		7A0104D31C12C02B003241E5 /* ThreeHundredTangPoemsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A0104D21C12C02B003241E5 /* ThreeHundredTangPoemsTests.m */; };
+		7A0104E11C12C0E6003241E5 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A0104E01C12C0E6003241E5 /* MainViewController.m */; };
+		7A0104E41C12C127003241E5 /* PoemTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A0104E31C12C127003241E5 /* PoemTableViewCell.m */; };
+		7A0104E91C12C271003241E5 /* tangshi.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7A0104E81C12C271003241E5 /* tangshi.plist */; };
+		7A0104EC1C12C8D6003241E5 /* ContentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A0104EB1C12C8D6003241E5 /* ContentModel.m */; };
+		7A0104EF1C12D6E0003241E5 /* ContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A0104EE1C12D6E0003241E5 /* ContentViewController.m */; };
+		7A0104F81C12EA34003241E5 /* Content.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A0104F71C12EA34003241E5 /* Content.m */; };
+		7A1C80E01C142A3D008B1747 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7A1C80DF1C142A3D008B1747 /* 2.jpg */; };
+		7A1C80E21C142A43008B1747 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7A1C80E11C142A43008B1747 /* 3.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7A0104CD1C12C02B003241E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A0104AE1C12C02A003241E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A0104B51C12C02A003241E5;
+			remoteInfo = ThreeHundredTangPoems;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7A0104B61C12C02B003241E5 /* ThreeHundredTangPoems.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThreeHundredTangPoems.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A0104BA1C12C02B003241E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A0104BB1C12C02B003241E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7A0104BD1C12C02B003241E5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7A0104BE1C12C02B003241E5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7A0104C11C12C02B003241E5 /* ThreeHundredTangPoems.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ThreeHundredTangPoems.xcdatamodel; sourceTree = "<group>"; };
+		7A0104C31C12C02B003241E5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7A0104C61C12C02B003241E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		7A0104CC1C12C02B003241E5 /* ThreeHundredTangPoemsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThreeHundredTangPoemsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A0104D11C12C02B003241E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A0104D21C12C02B003241E5 /* ThreeHundredTangPoemsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThreeHundredTangPoemsTests.m; sourceTree = "<group>"; };
+		7A0104DF1C12C0E6003241E5 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = ../../../MainViewController.h; sourceTree = "<group>"; };
+		7A0104E01C12C0E6003241E5 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = ../../../MainViewController.m; sourceTree = "<group>"; };
+		7A0104E21C12C127003241E5 /* PoemTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PoemTableViewCell.h; path = ../../../UItableViewCell/PoemTableViewCell.h; sourceTree = "<group>"; };
+		7A0104E31C12C127003241E5 /* PoemTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PoemTableViewCell.m; path = ../../../UItableViewCell/PoemTableViewCell.m; sourceTree = "<group>"; };
+		7A0104E81C12C271003241E5 /* tangshi.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = tangshi.plist; sourceTree = "<group>"; };
+		7A0104EA1C12C8D6003241E5 /* ContentModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ContentModel.h; path = ../../Model/ContentModel.h; sourceTree = "<group>"; };
+		7A0104EB1C12C8D6003241E5 /* ContentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ContentModel.m; path = ../../Model/ContentModel.m; sourceTree = "<group>"; };
+		7A0104ED1C12D6E0003241E5 /* ContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentViewController.h; sourceTree = "<group>"; };
+		7A0104EE1C12D6E0003241E5 /* ContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentViewController.m; sourceTree = "<group>"; };
+		7A0104F61C12EA34003241E5 /* Content.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Content.h; sourceTree = "<group>"; };
+		7A0104F71C12EA34003241E5 /* Content.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Content.m; sourceTree = "<group>"; };
+		7A1C80DF1C142A3D008B1747 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		7A1C80E11C142A43008B1747 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A0104B31C12C02A003241E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A0104C91C12C02B003241E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7A0104AD1C12C02A003241E5 = {
+			isa = PBXGroup;
+			children = (
+				7A0104B81C12C02B003241E5 /* ThreeHundredTangPoems */,
+				7A0104CF1C12C02B003241E5 /* ThreeHundredTangPoemsTests */,
+				7A0104B71C12C02B003241E5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7A0104B71C12C02B003241E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A0104B61C12C02B003241E5 /* ThreeHundredTangPoems.app */,
+				7A0104CC1C12C02B003241E5 /* ThreeHundredTangPoemsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A0104B81C12C02B003241E5 /* ThreeHundredTangPoems */ = {
+			isa = PBXGroup;
+			children = (
+				7A1C80DF1C142A3D008B1747 /* 2.jpg */,
+				7A1C80E11C142A43008B1747 /* 3.jpg */,
+				7A0104BD1C12C02B003241E5 /* AppDelegate.h */,
+				7A0104BE1C12C02B003241E5 /* AppDelegate.m */,
+				7A0104E81C12C271003241E5 /* tangshi.plist */,
+				7A0104DC1C12C095003241E5 /* Model */,
+				7A0104DE1C12C0B6003241E5 /* Controller */,
+				7A0104DD1C12C09F003241E5 /* UItableViewCell */,
+				7A0104C51C12C02B003241E5 /* LaunchScreen.xib */,
+				7A0104C01C12C02B003241E5 /* ThreeHundredTangPoems.xcdatamodeld */,
+				7A0104C31C12C02B003241E5 /* Images.xcassets */,
+				7A0104B91C12C02B003241E5 /* Supporting Files */,
+			);
+			path = ThreeHundredTangPoems;
+			sourceTree = "<group>";
+		};
+		7A0104B91C12C02B003241E5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7A0104BA1C12C02B003241E5 /* Info.plist */,
+				7A0104BB1C12C02B003241E5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7A0104CF1C12C02B003241E5 /* ThreeHundredTangPoemsTests */ = {
+			isa = PBXGroup;
+			children = (
+				7A0104D21C12C02B003241E5 /* ThreeHundredTangPoemsTests.m */,
+				7A0104D01C12C02B003241E5 /* Supporting Files */,
+			);
+			path = ThreeHundredTangPoemsTests;
+			sourceTree = "<group>";
+		};
+		7A0104D01C12C02B003241E5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7A0104D11C12C02B003241E5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7A0104DC1C12C095003241E5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7A0104EA1C12C8D6003241E5 /* ContentModel.h */,
+				7A0104EB1C12C8D6003241E5 /* ContentModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7A0104DD1C12C09F003241E5 /* UItableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				7A0104F61C12EA34003241E5 /* Content.h */,
+				7A0104F71C12EA34003241E5 /* Content.m */,
+				7A0104E21C12C127003241E5 /* PoemTableViewCell.h */,
+				7A0104E31C12C127003241E5 /* PoemTableViewCell.m */,
+			);
+			name = UItableViewCell;
+			path = Model/UItableViewCell;
+			sourceTree = "<group>";
+		};
+		7A0104DE1C12C0B6003241E5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7A0104DF1C12C0E6003241E5 /* MainViewController.h */,
+				7A0104E01C12C0E6003241E5 /* MainViewController.m */,
+				7A0104ED1C12D6E0003241E5 /* ContentViewController.h */,
+				7A0104EE1C12D6E0003241E5 /* ContentViewController.m */,
+			);
+			name = Controller;
+			path = Model/Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A0104B51C12C02A003241E5 /* ThreeHundredTangPoems */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A0104D61C12C02B003241E5 /* Build configuration list for PBXNativeTarget "ThreeHundredTangPoems" */;
+			buildPhases = (
+				7A0104B21C12C02A003241E5 /* Sources */,
+				7A0104B31C12C02A003241E5 /* Frameworks */,
+				7A0104B41C12C02A003241E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThreeHundredTangPoems;
+			productName = ThreeHundredTangPoems;
+			productReference = 7A0104B61C12C02B003241E5 /* ThreeHundredTangPoems.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7A0104CB1C12C02B003241E5 /* ThreeHundredTangPoemsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A0104D91C12C02B003241E5 /* Build configuration list for PBXNativeTarget "ThreeHundredTangPoemsTests" */;
+			buildPhases = (
+				7A0104C81C12C02B003241E5 /* Sources */,
+				7A0104C91C12C02B003241E5 /* Frameworks */,
+				7A0104CA1C12C02B003241E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A0104CE1C12C02B003241E5 /* PBXTargetDependency */,
+			);
+			name = ThreeHundredTangPoemsTests;
+			productName = ThreeHundredTangPoemsTests;
+			productReference = 7A0104CC1C12C02B003241E5 /* ThreeHundredTangPoemsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A0104AE1C12C02A003241E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "张鹏飞";
+				TargetAttributes = {
+					7A0104B51C12C02A003241E5 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					7A0104CB1C12C02B003241E5 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 7A0104B51C12C02A003241E5;
+					};
+				};
+			};
+			buildConfigurationList = 7A0104B11C12C02A003241E5 /* Build configuration list for PBXProject "ThreeHundredTangPoems" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7A0104AD1C12C02A003241E5;
+			productRefGroup = 7A0104B71C12C02B003241E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A0104B51C12C02A003241E5 /* ThreeHundredTangPoems */,
+				7A0104CB1C12C02B003241E5 /* ThreeHundredTangPoemsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A0104B41C12C02A003241E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A1C80E21C142A43008B1747 /* 3.jpg in Resources */,
+				7A0104C71C12C02B003241E5 /* LaunchScreen.xib in Resources */,
+				7A0104E91C12C271003241E5 /* tangshi.plist in Resources */,
+				7A1C80E01C142A3D008B1747 /* 2.jpg in Resources */,
+				7A0104C41C12C02B003241E5 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A0104CA1C12C02B003241E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A0104B21C12C02A003241E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A0104BF1C12C02B003241E5 /* AppDelegate.m in Sources */,
+				7A0104EF1C12D6E0003241E5 /* ContentViewController.m in Sources */,
+				7A0104C21C12C02B003241E5 /* ThreeHundredTangPoems.xcdatamodeld in Sources */,
+				7A0104E41C12C127003241E5 /* PoemTableViewCell.m in Sources */,
+				7A0104BC1C12C02B003241E5 /* main.m in Sources */,
+				7A0104E11C12C0E6003241E5 /* MainViewController.m in Sources */,
+				7A0104F81C12EA34003241E5 /* Content.m in Sources */,
+				7A0104EC1C12C8D6003241E5 /* ContentModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A0104C81C12C02B003241E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A0104D31C12C02B003241E5 /* ThreeHundredTangPoemsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7A0104CE1C12C02B003241E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A0104B51C12C02A003241E5 /* ThreeHundredTangPoems */;
+			targetProxy = 7A0104CD1C12C02B003241E5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7A0104C51C12C02B003241E5 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A0104C61C12C02B003241E5 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7A0104D41C12C02B003241E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7A0104D51C12C02B003241E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A0104D71C12C02B003241E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ThreeHundredTangPoems/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7A0104D81C12C02B003241E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ThreeHundredTangPoems/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7A0104DA1C12C02B003241E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ThreeHundredTangPoemsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThreeHundredTangPoems.app/ThreeHundredTangPoems";
+			};
+			name = Debug;
+		};
+		7A0104DB1C12C02B003241E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ThreeHundredTangPoemsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThreeHundredTangPoems.app/ThreeHundredTangPoems";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A0104B11C12C02A003241E5 /* Build configuration list for PBXProject "ThreeHundredTangPoems" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A0104D41C12C02B003241E5 /* Debug */,
+				7A0104D51C12C02B003241E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A0104D61C12C02B003241E5 /* Build configuration list for PBXNativeTarget "ThreeHundredTangPoems" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A0104D71C12C02B003241E5 /* Debug */,
+				7A0104D81C12C02B003241E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A0104D91C12C02B003241E5 /* Build configuration list for PBXNativeTarget "ThreeHundredTangPoemsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A0104DA1C12C02B003241E5 /* Debug */,
+				7A0104DB1C12C02B003241E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7A0104C01C12C02B003241E5 /* ThreeHundredTangPoems.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7A0104C11C12C02B003241E5 /* ThreeHundredTangPoems.xcdatamodel */,
+			);
+			currentVersion = 7A0104C11C12C02B003241E5 /* ThreeHundredTangPoems.xcdatamodel */;
+			path = ThreeHundredTangPoems.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7A0104AE1C12C02A003241E5 /* Project object */;
+}

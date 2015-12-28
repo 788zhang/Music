@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7ABB14821C293A67004257DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ABB14811C293A67004257DD /* main.m */; };
+		7ABB14851C293A67004257DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ABB14841C293A67004257DD /* AppDelegate.m */; };
+		7ABB14871C293A67004257DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7ABB14861C293A67004257DD /* Assets.xcassets */; };
+		7ABB148A1C293A67004257DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7ABB14881C293A67004257DD /* LaunchScreen.storyboard */; };
+		7ABB14931C293A8D004257DD /* MangoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ABB14921C293A8D004257DD /* MangoViewController.m */; };
+		7ABB14951C293E77004257DD /* Student.xml in Resources */ = {isa = PBXBuildFile; fileRef = 7ABB14941C293E77004257DD /* Student.xml */; };
+		7ABB14981C2946BC004257DD /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ABB14971C2946BC004257DD /* GDataXMLNode.m */; };
+		7ABB149A1C294802004257DD /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ABB14991C294802004257DD /* libxml2.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7ABB147D1C293A67004257DD /* XML和JESON的解析.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "XML和JESON的解析.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ABB14811C293A67004257DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7ABB14831C293A67004257DD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7ABB14841C293A67004257DD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7ABB14861C293A67004257DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7ABB14891C293A67004257DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7ABB148B1C293A67004257DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7ABB14911C293A8D004257DD /* MangoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MangoViewController.h; path = ../MangoViewController.h; sourceTree = "<group>"; };
+		7ABB14921C293A8D004257DD /* MangoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MangoViewController.m; path = ../MangoViewController.m; sourceTree = "<group>"; };
+		7ABB14941C293E77004257DD /* Student.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Student.xml; sourceTree = "<group>"; };
+		7ABB14961C2946BC004257DD /* GDataXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataXMLNode.h; sourceTree = "<group>"; };
+		7ABB14971C2946BC004257DD /* GDataXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataXMLNode.m; sourceTree = "<group>"; };
+		7ABB14991C294802004257DD /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7ABB147A1C293A67004257DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ABB149A1C294802004257DD /* libxml2.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7ABB14741C293A67004257DD = {
+			isa = PBXGroup;
+			children = (
+				7ABB14991C294802004257DD /* libxml2.tbd */,
+				7ABB147F1C293A67004257DD /* XML和JESON的解析 */,
+				7ABB147E1C293A67004257DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7ABB147E1C293A67004257DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7ABB147D1C293A67004257DD /* XML和JESON的解析.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7ABB147F1C293A67004257DD /* XML和JESON的解析 */ = {
+			isa = PBXGroup;
+			children = (
+				7ABB14831C293A67004257DD /* AppDelegate.h */,
+				7ABB14841C293A67004257DD /* AppDelegate.m */,
+				7ABB14961C2946BC004257DD /* GDataXMLNode.h */,
+				7ABB14971C2946BC004257DD /* GDataXMLNode.m */,
+				7ABB14911C293A8D004257DD /* MangoViewController.h */,
+				7ABB14921C293A8D004257DD /* MangoViewController.m */,
+				7ABB14941C293E77004257DD /* Student.xml */,
+				7ABB14861C293A67004257DD /* Assets.xcassets */,
+				7ABB14881C293A67004257DD /* LaunchScreen.storyboard */,
+				7ABB148B1C293A67004257DD /* Info.plist */,
+				7ABB14801C293A67004257DD /* Supporting Files */,
+			);
+			path = "XML和JESON的解析";
+			sourceTree = "<group>";
+		};
+		7ABB14801C293A67004257DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7ABB14811C293A67004257DD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7ABB147C1C293A67004257DD /* XML和JESON的解析 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7ABB148E1C293A67004257DD /* Build configuration list for PBXNativeTarget "XML和JESON的解析" */;
+			buildPhases = (
+				7ABB14791C293A67004257DD /* Sources */,
+				7ABB147A1C293A67004257DD /* Frameworks */,
+				7ABB147B1C293A67004257DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "XML和JESON的解析";
+			productName = "XML和JESON的解析";
+			productReference = 7ABB147D1C293A67004257DD /* XML和JESON的解析.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7ABB14751C293A67004257DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = scjy;
+				TargetAttributes = {
+					7ABB147C1C293A67004257DD = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 7ABB14781C293A67004257DD /* Build configuration list for PBXProject "XML和JESON的解析" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7ABB14741C293A67004257DD;
+			productRefGroup = 7ABB147E1C293A67004257DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7ABB147C1C293A67004257DD /* XML和JESON的解析 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7ABB147B1C293A67004257DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ABB14951C293E77004257DD /* Student.xml in Resources */,
+				7ABB14871C293A67004257DD /* Assets.xcassets in Resources */,
+				7ABB148A1C293A67004257DD /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7ABB14791C293A67004257DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ABB14931C293A8D004257DD /* MangoViewController.m in Sources */,
+				7ABB14981C2946BC004257DD /* GDataXMLNode.m in Sources */,
+				7ABB14851C293A67004257DD /* AppDelegate.m in Sources */,
+				7ABB14821C293A67004257DD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7ABB14881C293A67004257DD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7ABB14891C293A67004257DD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7ABB148C1C293A67004257DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7ABB148D1C293A67004257DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7ABB148F1C293A67004257DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				INFOPLIST_FILE = "XML和JESON的解析/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhang.XML-JESON---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7ABB14901C293A67004257DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				INFOPLIST_FILE = "XML和JESON的解析/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhang.XML-JESON---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7ABB14781C293A67004257DD /* Build configuration list for PBXProject "XML和JESON的解析" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7ABB148C1C293A67004257DD /* Debug */,
+				7ABB148D1C293A67004257DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7ABB148E1C293A67004257DD /* Build configuration list for PBXNativeTarget "XML和JESON的解析" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7ABB148F1C293A67004257DD /* Debug */,
+				7ABB14901C293A67004257DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7ABB14751C293A67004257DD /* Project object */;
+}
